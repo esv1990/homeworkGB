@@ -3,6 +3,7 @@ package lesson1;
 public class FirstHomeWork {
 
     public static void main(String[] args) {
+        //pull request
         //создал переменные
 //        int intA = 1990;
 //        long longA = 200000000L;
