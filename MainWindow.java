@@ -5,6 +5,10 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * Created by Aleksandr Gladkov [Anticisco]
+ * Date of creation: 09.11.2020
+ */
 
 public class MainWindow extends JFrame {
 
@@ -47,6 +51,7 @@ public class MainWindow extends JFrame {
         panelBottom.add(btnExitGame);
 
         add(panelBottom, BorderLayout.SOUTH);
+        add(gameMap);
 
         setResizable(false);
         setVisible(true);
