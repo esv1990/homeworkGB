@@ -7,11 +7,15 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * Created by Aleksandr Gladkov [Anticisco]
+ * Date of creation: 09.11.2020
+ */
 
 public class Setting extends JFrame {
 
     private static final int WINDOW_WIDTH = 350;
-    private static final int WINDOW_HEIGHT = 270;
+    private static final int WINDOW_HEIGHT = 230;
 
     private static final int MIN_WIN_LENGTH = 3;
     private static final int MIN_FIELD_SIZE = 3;
@@ -51,8 +55,7 @@ public class Setting extends JFrame {
 
         add(btnPlay);
         setVisible(false);
-
-    }
+     }
 
     private void addGameModeSetup() {
         add(new JLabel("Choose game mode:"));
@@ -111,5 +114,6 @@ public class Setting extends JFrame {
 
         mainWindow.startNewGame(gameMode, fieldSize, fieldSize, winLength);
 
+        setVisible(false);
     }
 }
